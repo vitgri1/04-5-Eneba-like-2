@@ -15,7 +15,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://vitgri1.github.io/04-5-Eneba-like-2/
 
-Design: [Eneba-like](https://Link) [based] (https://www.eneba.com/lt/)
+Design: [Eneba-like](https://raw.githubusercontent.com/vitgri1/04-5-Eneba-like-2/develop/img/samples/Eneba-sample1.png) [sample2](https://raw.githubusercontent.com/vitgri1/04-5-Eneba-like-2/develop/img/samples/Eneba-sample2.png) [sample3](https://raw.githubusercontent.com/vitgri1/04-5-Eneba-like-2/develop/img/samples/Eneba-sample3.png) [sample4](https://raw.githubusercontent.com/vitgri1/04-5-Eneba-like-2/develop/img/samples/Eneba-sample4.png) [based on](https://www.eneba.com/lt/)
 
 ## 🎯 Project features/goals
 
