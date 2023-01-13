@@ -1,3 +1,14 @@
 .btn {
-    background-color: red
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1em;
+    padding: 0.25em 1em;
+    border: 1px solid #fff;
+}
+
+header > .btn {
+    background-color: #FAD318;
+    color: #000;
+    border-color: #FAD318;
 }
