@@ -68,3 +68,60 @@ header {
 .advert-bar > img:first-child {
     flex-grow: 2;
 }
+
+.board-top {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.board-top > h2 {
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+.menu-1,
+.menu-2 {
+    display: flex;
+    width: 100%;
+    font-size: 15px;
+}
+
+.m-1-item, 
+.m-2-item {
+    width: 20%;
+    text-align: center;
+    line-height: 1em;
+    padding: 1em 0;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.m-1-item:first-child{
+    background-color: #32117D;
+}
+
+.menu-2 {
+    display: flex;
+    width: 100%;
+    font-size: 40px;
+    background-color: #32117D;
+}
+
+.m-2-item {
+    width: 11%;
+    text-transform: none;
+    line-height: 2em;
+    padding: 0;
+}
+
+.m-2-item:last-child {
+    width: 12%;
+    font-size: 0.5em;
+    line-height: 1em;
+    padding: 1em 0;
+    border-left: solid #fff;
+}
