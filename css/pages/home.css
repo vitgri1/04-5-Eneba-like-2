@@ -125,3 +125,18 @@ header {
     padding: 1em 0;
     border-left: solid #fff;
 }
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.shop-item {
+    width: 19%;
+    height: 15em;
+    background-color: #1F0A4E;
+    color: #fff;
+}
