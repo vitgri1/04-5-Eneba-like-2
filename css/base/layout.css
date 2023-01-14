@@ -4,6 +4,7 @@
     width: 900px;
     margin-left: calc(50% - 450px);
     /* for half screen develop only*/
+    text-align: center;
 }
 
 .container.long{
