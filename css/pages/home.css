@@ -43,3 +43,28 @@ header {
     color: inherit;
     text-decoration: none;
 }
+
+.header-menu {
+    height: 2.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    font-size: 16px;
+}
+
+.h-m-item {
+    color: #fff;
+    text-decoration: none;
+    font-size: inherit;
+    line-height: 1em;
+}
+
+.advert-bar {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.advert-bar > img:first-child {
+    flex-grow: 2;
+}
