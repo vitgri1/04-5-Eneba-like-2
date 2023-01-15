@@ -14,6 +14,6 @@ header > .btn {
     border-color: #FAD318;
 }
 
-main > .btn {
+.container > .btn {
     width: 15%;
 }

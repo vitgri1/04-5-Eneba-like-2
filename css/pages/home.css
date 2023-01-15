@@ -126,7 +126,8 @@ header {
     border-left: solid #fff;
 }
 
-.shop {
+.shop,
+.categories {
     display: flex;
     flex-wrap: wrap;
     gap: 11px;
@@ -139,4 +140,26 @@ header {
     height: 15em;
     background-color: #1F0A4E;
     color: #fff;
+}
+
+.cat-item {
+    font-size: 15px;
+    width: 13%;
+    padding: 1em;
+    background-color: #5825CC;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.cat-item > .num,
+.cat-item > .label {
+    font-size: inherit;
+    line-height: 1em;
+}
+
+.cat-item > .fa {
+    font-size: 2em;
 }
