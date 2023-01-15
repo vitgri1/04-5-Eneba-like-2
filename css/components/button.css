@@ -1,3 +1,19 @@
 .btn {
-    background-color: red
+    background-color: transparent;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1em;
+    padding: 0.25em 1em;
+    border: 1px solid #fff;
+    display: inline-block;
+}
+
+header > .btn {
+    background-color: #FAD318;
+    color: #000;
+    border-color: #FAD318;
+}
+
+.container > .btn {
+    width: 15%;
 }

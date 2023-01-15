@@ -1,0 +1,27 @@
+.search{
+    font-size: 20px;
+    width: 30%;
+    height: calc(1.5em + 2px);
+    border: 1px solid #fff;
+}
+
+.search > input {
+    width: calc(100% - 1.5em);
+    background-color: transparent;
+    font-size: 1em;
+    line-height: 1.5em;
+    float: left;
+    color: #878788;
+    border: none;
+}
+
+.search > button.fa-search {
+    width: 1.5em;
+    float: left;
+    font-size: inherit;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+}
