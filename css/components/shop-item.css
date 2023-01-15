@@ -1,0 +1,62 @@
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.shop-item > img {
+    width: 100%;
+}
+
+.shop-item > .description {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: 12em;
+    justify-content: space-between;
+    align-items: left;
+    padding: 1em;
+}
+
+.shop-item > .description > .label {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.shop-item > .description > .info {
+    line-height: 1.25em;
+}
+
+.shop-item > .description > .info > .extra-info,
+.shop-item > .description > .info > .total {
+    color: gray;
+}
+
+.shop-item > .description > .info > .extra-info > .gera{
+    color: yellow;
+}
+
+.shop-item > .description > .info > .extra-info > .nauja {
+    color: aqua;
+}
+
+.shop-item > .description > .info > .cost {
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.shop-item > .description > .info > .total > .discount {
+    color: lime;
+}
+
+.shop-item > .description > .info > .total > .discount > span{
+    color: gray;
+    text-decoration: line-through;
+}
+
+.shop-item > .description > .info > .extra-info > .number-of {
+    color: #fff;
+}
