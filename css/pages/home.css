@@ -7,7 +7,7 @@
 @import '../components/button.css';
 @import '../components/lang.css';
 @import '../components/search.css';
-
+@import '../components/shop-item.css';
 
 /* Custom style below this comment line */
 
@@ -138,7 +138,7 @@ header.container {
 
 .shop-item {
     width: 19%;
-    height: 15em;
+    /* height: 15em; */
     background-color: #1F0A4E;
     color: #fff;
 }
