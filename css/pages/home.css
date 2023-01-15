@@ -11,12 +11,13 @@
 
 /* Custom style below this comment line */
 
-header {
+header.container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     color: #fff;
     user-select: none;
+    padding: 0;
 }
 
 .logo {
@@ -50,6 +51,7 @@ header {
     align-items: center;
     gap: 0.6em;
     font-size: 16px;
+    padding: 0;
 }
 
 .h-m-item {
@@ -74,7 +76,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 30px;
 }
 
 .board-top > h2 {
@@ -162,4 +163,137 @@ header {
 
 .cat-item > .fa {
     font-size: 2em;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 3em 0;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-m-item {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 0.5em;
+    width: 11%;
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    line-height: 1em;
+}
+
+.f-m-item > .label {
+    padding: 0.25em 0;
+}
+
+.f-m-item > a {
+    color: inherit;
+    line-height: 1em;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.f-m-item.btns {
+    width: 14%;
+}
+
+.socials {
+    display: flex;
+    gap: 1em;
+}
+
+.socials > a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.f-m-item:last-child {
+    width: 20%;
+}
+
+.f-m-item:last-child > a > img{
+    height: 25px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+}
+
+.reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #fff;
+    text-align: left;
+}
+
+.trustpilot {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    gap: 3px;
+}
+
+.trustpilot > .label > .fa-star {
+    color: #00B67A;
+    font-size: 1.2em;
+}
+
+.trustpilot > .rating {
+    display: flex;
+    gap: 2px;
+}
+
+.trustpilot > .rating > .fa{
+    background-color: #00B67A;
+    padding: 0.1em;
+}
+
+.trustpilot > p {
+    font-size: 10px;
+}
+
+.partners {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    border: 1px #fff;
+    border-style: solid none;
+}
+
+.partners > .items {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+.partners > .items > a > img{
+    height: 25px;
+    width: 100px;
+    object-fit: contain;
+}
+
+.copyright {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: baseline;
+}
+
+.copyright > p{
+    font-size: 12px;
+}
+
+.copyright > p > a{
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
 }
